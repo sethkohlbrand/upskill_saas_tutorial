@@ -17,7 +17,19 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
+body, .navbar{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+50,b5c6d0+76,e0eff9+100 */
+    background: #f2f6f8; /* Old browsers */
+    background: -moz-linear-gradient(left,  #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 76%, #e0eff9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 76%,#e0eff9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 76%,#e0eff9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 */
+
+}
  
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+   border: none; 
 }
