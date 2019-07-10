@@ -40,6 +40,18 @@ h1, h2, h3 {
   font-weight: 800;
 }
 // Nav Styles
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+  
+}
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus{
+    color: #f2f6f8;
+  }
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: black;
